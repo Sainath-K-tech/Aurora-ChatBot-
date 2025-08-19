@@ -204,7 +204,7 @@ function App() {
 
     setLoading(true);
 
-    // Add user message (with optional image preview)
+   
     const userMsg = {
       type: "user",
       text: query || (imageFile ? "[Image uploaded]" : ""),
@@ -215,7 +215,7 @@ function App() {
 
     try {
       // Build Gemini request
-      const apiKey = "AIzaSyCj0bc14sUOm3mjRg7B2yTvyWQX28TFiuY"; // ⚠️ Don’t hardcode in production
+      const apiKey = "YOUR_GEMINI_API_KEY"; 
       const url =
         "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=" +
         apiKey;
@@ -337,10 +337,10 @@ function App() {
         </div>
       </aside>
 
-      {/* Main panel */}
+     
       <main className="app-container">
 
-        {/* Sticky top with Dynamic Island style */}
+        
         <header className={`topbar ${headerScrolled ? "scrolled" : ""}`}>
           <div className="dynamic-island">
   <span className="aurora-title">Aurora Bot ✨</span>
@@ -348,7 +348,7 @@ function App() {
 
         </header>
 
-        {/* Quick Action Chips */}
+        
         <div className="quick-actions">
           {quickActions.map((a) => (
             <button
