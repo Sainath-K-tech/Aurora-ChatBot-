@@ -48,6 +48,10 @@ The Aurora Chatbot is a smart, modern, and responsive AI assistant designed to p
    ```bash
      npm run dev
 
+5. Open your browser and visit:
+  ```bash 
+    http://localhost:5173/
+
 ## 📸 Screenshots
 
 # Interface of the Chatbot
