@@ -1,6 +1,6 @@
-## 🌌 Aurora Chatbot – AI Powered Assistant
+## 🌌 Aurora Chatbot 
 
-The Aurora Chatbot is a smart, modern, and responsive AI assistant designed to provide instant responses to your queries. Built with React, Vite, and TailwindCSS, and powered by OpenAI’s GPT API, Aurora offers a sleek interface with smooth animations, a customizable chat experience, and real-time conversational abilities.
+The Aurora Chatbot is a smart, modern, and responsive AI assistant designed to provide instant responses to your queries. Built with React, Vite and powered by Gemini GPT API, Aurora offers a sleek interface with smooth animations, a customizable chat experience, and real-time conversational abilities.
 
 ## 🚀 Features
 
@@ -24,7 +24,7 @@ The Aurora Chatbot is a smart, modern, and responsive AI assistant designed to p
 
 -- Styling: TailwindCSS, Flexbox/Grid, Animations with Framer Motion
 
--- Backend/AI: OpenAI API (GPT-4/5)
+-- Backend/AI: Gemini
 
 -- Version Control: Git & GitHub
 
@@ -49,7 +49,7 @@ The Aurora Chatbot is a smart, modern, and responsive AI assistant designed to p
      npm run dev
 
 5. Open your browser and visit:
-  ```bash 
+   ```bash 
     http://localhost:5173/
 
 ## 📸 Screenshots
@@ -58,6 +58,4 @@ The Aurora Chatbot is a smart, modern, and responsive AI assistant designed to p
 ![image alt](https://github.com/Sainath-K-tech/Aurora-ChatBot-/blob/715766911fd3fd3c62438b75d938e3409682f8a2/Screenshot%202025-08-19%20155649.png)
 
 
-Open your browser and visit:
 
-http://localhost:5173/
