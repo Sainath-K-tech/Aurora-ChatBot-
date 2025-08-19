@@ -215,7 +215,7 @@ function App() {
 
     try {
       // Build Gemini request
-      const apiKey = "YOUR_GEMINI_API_KEY"; 
+      const apiKey = "AIzaSyCj0bc14sUOm3mjRg7B2yTvyWQX28TFiuY";
       const url =
         "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=" +
         apiKey;
